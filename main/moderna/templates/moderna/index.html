@@ -1,0 +1,370 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>AGNESS</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'moderna/assets/img/favicon.png' %}" rel="icon">
+  <link href="{% static 'moderna/assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'moderna/assets/vendor/animate.css/animate.min.css' %}" rel="stylesheet">
+  <link href="{% static 'moderna/assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'moderna/assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'moderna/assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'moderna/assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'moderna/assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'moderna/assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'moderna/assets/css/style.css' %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Moderna - v4.8.0
+  * Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <h1 class="text-light"><a href="."><span>AGNESS</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="" href=".">Главная</a></li>
+          <li><a href="about/">О нас</a></li>
+          <li><a href="services/">Услуги</a></li>
+         <!-- <li><a href="portfolio.html">Портфолио</a></li>-->
+          <li><a href="team/">Команда</a></li>
+          <li><a href="contact/">Связаться с нами</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex justify-cntent-center align-items-center">
+    <div id="heroCarousel" class="container carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Добро пожаловать в <span>AGNESS</span></h2>
+          <p class="animate__animated animate__fadeInUp">Наши юристы и адвокаты предоставят Вам помощь в направлениии жилищного и земельного права</p>
+          <a href="#main" class="btn-get-started animate__animated animate__fadeInUp">Подробнее</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="carousel-container"  >
+          <!--<h2 class="animate__animated animate__fadeInDown">внимание анекдот</h2>-->
+            <br>
+            <br>
+            <br>
+        
+        
+          <p class="animate__animated animate__fadeInUp" >Ежедневно мы помогаем разрешить проблемы, связанные с выделом и определением границ земельных участков, получением наследства, конфликтами между соседями, с гос. органами, захватом участков, получением права собственности, приватизации, межевание земельных участков и многим другим.</p>
+          <a href="services.html" class="btn-get-started animate__animated animate__fadeInUp">Список услуг</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Нужна консультация? Столкнулись с нарушением ваших прав?</h2>
+          <p class="animate__animated animate__fadeInUp">Звоните – мы знаем, как Вам помочь!</p>
+          <a href="contact.html" class="btn-get-started animate__animated animate__fadeInUp">Оставить заявку</a>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main" >
+
+    <!-- ======= Services Section ======= -->
+    <section class="services">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="icon-box icon-box-pink">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4 class="title"><a href="">Ориентация на активные действия</a></h4>
+              <p class="description">Новые методы решения судебных процессов</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box icon-box-cyan">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">Обширный список услуг</a></h4>
+              <p class="description">Предоставим вам больше возможностей, чем другие</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box icon-box-green">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4 class="title"><a href="">Скорость обслуживания</a></h4>
+              <p class="description">Упор на быстрое решение пролемы</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box icon-box-blue">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4 class="title"><a href="">Трансрегиональная компания</a></h4>
+              <p class="description">Работаем во всех регионах страны</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6 video-box">
+            <img src="{% static 'moderna/assets/img/why-us.jpg' %}" class="img-fluid" alt="">
+            <a href="https://www.youtube.com/watch?v=HbFao-uUhRE" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+          </div>
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
+
+          <!--  <div class="icon-box">
+              <div class="icon"><i class="bx bx-fingerprint"></i></div>
+              <h4 class="title"><a href="">доп кнопка для какой нибудь ссылки на видос ваш</a></h4>
+              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            </div>-->
+
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-gift"></i></div>
+              <h4 class="title"><a href="">Видео-визитка компании </a></h4>
+              <p class="description">Найди в видео кодовое слово и получи скидку в размере 10% на первый заказ</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section class="features">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Обратись к нашим специалистам прямо сейчас!</h2>
+          <p>Ответ не заставит себя ждать</p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-md-5">
+            <img src="{% static 'moderna/assets/img/features-1.svg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 pt-4">
+            <h3>Предварительный анализ</h3>
+            <p class="fst-italic">
+             За некоторые услуги можно не платить
+            </p>
+            <ul>
+              <li><i class="bi bi-check"></i> Бесплатное изучение Ваших правоустанавливающих документов на недвижимость в нашем офисе </li>
+              <li><i class="bi bi-check"></i> Оценка перспектив дела</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-md-5 order-1 order-md-2">
+            <img src="{% static 'moderna/assets/img/features-2.svg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 pt-5 order-2 order-md-1">
+            <h3>Решения сложных вопросов</h3>
+            <p class="fst-italic">
+              тех, за которые другие не возьмутся
+            </p>
+            <p>
+                  <ul>
+              <li><i class="bi bi-check"></i> Защита интересов доверителя в судах всех инстанций, федеральных и муниципальных органах власти</li>
+              <li><i class="bi bi-check"></i> Обжалование вступивших в силу решений</li>
+            </ul>
+             
+          </div>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-md-5">
+            <img src="{% static 'moderna/assets/img/features-3.svg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 pt-5">
+            <h3>Представительство в регионах</h3>
+            <p>Специалисты нашей компании готовы обеспечить серьезную поддержку в любом регионе, даже в самой сложной ситуации!</p>
+           <!-- <p>Земельные специалисты</p> -->
+            <ul>
+              <li><i class="bi bi-check"></i> Юристы по земельному праву с опытом от 8 лет</li>
+              <li><i class="bi bi-check"></i> Действующие адвокаты</li>
+              <li><i class="bi bi-check"></i> Кадастровые инженеры</li>
+              <li><i class="bi bi-check"></i> Оценщики</li>
+              <!--<li><i class="bi bi-check"></i> Проектировщики</li>-->
+            </ul>
+          </div>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-md-5 order-1 order-md-2">
+            <img src="{% static 'moderna/assets/img/features-4.svg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 pt-5 order-2 order-md-1">
+            <h3>Четко в срок</h3>
+<!--<p class="fst-italic">
+             
+            </p>-->
+              <br>
+            <p>
+            <ul>
+              <li><i class="bi bi-check"></i> Гарантируем завершения процесса к установленному нами сроку</li>
+            </ul>
+            
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h4>Подписка на нашу рассылку</h4>
+            <p>Желаете получать оперативную информацию о скидках и изменениях в правовом кодексе?</p>
+          </div>
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <input type="email" name="email" placeholder="Email"><input type="submit" value="подписаться">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+        
+
+       <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Реквизиты</h4>
+            <ul>
+              <li> <a><strong>ОГРН: </strong> 1227700223640</a></li>
+              <li> <a><strong>ИНН: </strong> 9725081331</a></li>
+              <li> <a><strong>КПП: </strong> 772501001</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Адресс</h4>
+            <ul> 
+              <li><p>115093, г. Москва, МО Даниловский, пер. Партийный, д. 1, к. 57, стр. 3, офис 205</p></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Контакты</h4>
+            <p>
+              <strong>Телефон:</strong> +7 (909) 458-24-04<br>
+              <strong>Email:</strong> basslan07@mail.ru<br>
+            </p>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>Соц. сети</h3>
+            <p>Подписывайтесь на нас в соц сетях, чтобы не пропускать важную информацию</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+            
+            
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+          &copy; Copyright by <strong><span>asa</span></strong> / <strong><span>hex</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/ -->
+        Designed by <a href="https://vk.com/egorik_nik">asa</a> / <a href="https://vk.com/homo_sanyok">hex</a>
+      </div>
+    </div>
+      
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'moderna/assets/vendor/purecounter/purecounter.js' %}"></script>
+  <script src="{% static 'moderna/assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'moderna/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'moderna/assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'moderna/assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'moderna/assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'moderna/assets/vendor/waypoints/noframework.waypoints.js' %}"></script>
+  <script src="{% static 'moderna/assets/vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'moderna/assets/js/main.js' %}"></script>
+
+</body>
+
+</html>
